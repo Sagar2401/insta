@@ -1,5 +1,4 @@
 import '../styles/globals.css';
-import type { AppProps } from 'next/app';
 import { useAtom } from 'jotai';
 import React from 'react';
 import useGetUserDetailsOnAuth from '../hooks/useGetUserDetailsOnAuth';
