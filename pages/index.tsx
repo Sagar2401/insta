@@ -46,7 +46,7 @@ const Home: NextPage = () => {
                 ))}
               </div>
             ) : (
-              ''
+              'Please search and follow user for see the posts'
             )}
           </div>
           {postsLoading ? <LoadingPosts /> : ''}
