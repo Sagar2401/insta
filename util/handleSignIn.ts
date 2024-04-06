@@ -34,8 +34,8 @@ function handleSignIn({
   if (guest) {
     signInWithEmailAndPassword(
       auth,
-      guestAccess().email,
-      guestAccess().password
+      guestAccess()?.email as string,
+      guestAccess()?.password as string
     )
       .then(() => {
         // Signed in

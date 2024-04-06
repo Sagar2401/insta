@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import { useAtom } from 'jotai';
 import { NextPage } from 'next';
 import Image from 'next/future/image';

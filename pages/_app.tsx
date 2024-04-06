@@ -10,7 +10,7 @@ import atoms from '../util/atoms';
 import useSetUserDarkModePreference from '../hooks/useSetUserDarkModePreference';
 import useCheckNewMessages from '../hooks/useCheckNewMessages';
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps }: any) {
   const [darkMode] = useAtom(atoms.darkMode);
 
   useGetUserDetailsOnAuth();
